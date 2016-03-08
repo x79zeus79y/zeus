@@ -216,6 +216,7 @@ function create_config( )
       "moderation",
       "groupcontrol",
       "membercontrol",
+      "info",
       "plugins"
       },
     sudo_users = {37194141},
