@@ -170,12 +170,12 @@ return {
     "/plugins disable [plugin] chat: disable plugin only this chat.",
     "/plugins reload: reloads all plugins." },
   patterns = {
-    "^/plugins$",
-    "^/plugins? (enable) ([%w_%.%-]+)$",
-    "^/plugins? (disable) ([%w_%.%-]+)$",
-    "^/plugins? (enable) ([%w_%.%-]+) (chat)",
-    "^/plugins? (disable) ([%w_%.%-]+) (chat)",
-    "^/plugins? (reload)$" },
+    "^#plugins$",
+    "^#plugins? (enable) ([%w_%.%-]+)$",
+    "^#plugins? (disable) ([%w_%.%-]+)$",
+    "^#plugins? (enable) ([%w_%.%-]+) (chat)",
+    "^#plugins? (disable) ([%w_%.%-]+) (chat)",
+    "^#plugins? (reload)$" },
   run = run,
   privileged = true
 }
