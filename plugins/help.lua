@@ -96,10 +96,10 @@ end
 return {
   description = "Help plugin. Get info from other plugins.  ", 
   usage = {
-    "!help: Show list of plugins.",
+    "#help: Show list of plugins.",
   },
   patterns = {
-    "^/(help)$",
+    "^#(help)$",
   }, 
   run = run,
 }
