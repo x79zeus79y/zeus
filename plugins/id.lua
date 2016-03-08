@@ -168,13 +168,13 @@ return {
     "/id members name <text>: Search for users with <text> on first_name, print_name or username on current chat"
   },
   patterns = {
-    "^/id$",
-    "^/ids? (chat) (%d+)$",
-    "^/ids? (chat)$",
-    "^/ids (channel)$",
-    "^/ids (channel) (%d+)$",
-    "^/id (member) (@)(.+)",
-    "^/id (members) (name) (.+)"
+    "^#id$",
+    "^#ids? (chat) (%d+)$",
+    "^#ids? (chat)$",
+    "^#ids (channel)$",
+    "^#ids (channel) (%d+)$",
+    "^#id (member) (@)(.+)",
+    "^#id (members) (name) (.+)"
   },
   run = run
 }
