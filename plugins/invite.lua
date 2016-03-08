@@ -79,12 +79,12 @@ return {
   description = "Invite other user to the chat group", 
   usage = {
   	moderator = {
-  		"!invite <username> : Invite other user to this chat",
+  		"#invite <username> : Invite other user to this chat",
   		},
   	},
   patterns = {
-    "^/(invite) (.*)$",
-    "^/(invite)$",
+    "^#(invite) (.*)$",
+    "^#(invite)$",
   }, 
   run = run,
   moderated = true 
